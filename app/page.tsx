@@ -11,6 +11,15 @@ export default function Home() {
         >
           <Balancer>Saas NextJs Building Blocks</Balancer>
         </h1>
+        <p
+          className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
+          style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
+        >
+          <Balancer>
+            An opinionated collection of components, hooks, and utilities for
+            your Next.js project.
+          </Balancer>
+        </p>
       </div>
     </>
   );

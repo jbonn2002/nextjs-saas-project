@@ -1,8 +1,8 @@
+import NavBar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import clsx from "clsx";
+import { inter, sfPro } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={clsx(sfPro.variable, inter.variable)}>
         <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
-        <main className="flex min-h-screen w-full flex-col items-center justify-center py-32">
+        <NavBar />
+        <main className="flex min-h-screen w-full flex-col items-center py-32">
           {children}
         </main>
       </body>
