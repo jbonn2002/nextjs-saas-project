@@ -5,8 +5,9 @@ import Link from "next/link";
 import useScroll from "@/lib/hooks/use-scroll";
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { Button } from "./ui/Button";
+import { User } from "@clerk/nextjs/server";
 
-export default function NavBar() {
+export default function NavBar({ user }: { user: User | null }) {
   const scrolled = useScroll(50);
 
   return (
@@ -27,12 +28,14 @@ export default function NavBar() {
               height="80"
               className="mr-2 rounded-sm"
             />
-            <p className="text-black font-bold">Exemplarium</p>
+            <p className="text-black">Exemplarium</p>
           </Link>
           <div>
-            <SignedIn>
-              <UserButton afterSignOutUrl="/" />
-            </SignedIn>
+            <div className="flex gap-2 font-display">
+              <SignedIn>
+                Welcome {user?.firstName} <UserButton afterSignOutUrl="/" />
+              </SignedIn>
+            </div>
 
             <SignedOut>
               <SignInButton>
