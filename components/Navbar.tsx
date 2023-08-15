@@ -22,16 +22,16 @@ export default function NavBar({ user }: { user: User | null }) {
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between w-full">
           <Link href="/" className="flex items-center font-display text-2xl">
             <Image
-              src="/colorfulBirdVector.jpg"
+              src="/cauldron-svgrepo-com.svg"
               alt="Precedent logo"
-              width="80"
-              height="80"
-              className="mr-2 rounded-sm"
+              width="50"
+              height="50"
+              className="mr-2 rounded-sm filter"
             />
-            <p className="text-black">Exemplarium</p>
+            <p className="text-white">Exemplarium</p>
           </Link>
           <div>
-            <div className="flex gap-2 font-display">
+            <div className="flex gap-2 font-display text-white">
               <SignedIn>
                 Welcome {user?.firstName} <UserButton afterSignOutUrl="/" />
               </SignedIn>

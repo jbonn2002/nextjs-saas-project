@@ -20,7 +20,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={clsx(sfPro.variable, inter.variable)}>
-          <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
+          <div className="fixed h-screen w-full bg-gradient-to-b from-black to-gray-600" />
           <Suspense fallback="...">
             <Nav />
           </Suspense>
