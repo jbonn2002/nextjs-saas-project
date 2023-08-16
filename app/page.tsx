@@ -1,4 +1,6 @@
+import GlobeClient from "@/components/Globe-client";
 import Image from "next/image";
+import { Suspense } from "react";
 import { Balancer } from "react-wrap-balancer";
 
 export default function Home() {
@@ -20,6 +22,9 @@ export default function Home() {
             your Next.js project.
           </Balancer>
         </p>
+        <Suspense fallback="...loading">
+          <GlobeClient />
+        </Suspense>
       </div>
     </>
   );
