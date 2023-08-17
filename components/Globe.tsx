@@ -14,7 +14,7 @@ interface MarkerProps {
   size: number;
 }
 
-export default function GlobeClient() {
+export default function Globe() {
   const divRef = useRef<any>();
   const entry = useIntersectionObserver(divRef, {});
   const isVisible = !!entry?.isIntersecting;
@@ -84,13 +84,13 @@ const GlobeAnimation = () => {
       height: width,
       phi,
       theta: 0.15,
-      dark: 0,
+      dark: 1,
       diffuse: 1.2,
       scale: 1,
       mapSamples: 20000,
       mapBrightness: 4,
-      baseColor: [1, 1, 1],
-      markerColor: [249 / 255, 115 / 255, 22 / 255],
+      baseColor: [0.1, 0.1, 0.1],
+      markerColor: [1, 1, 1],
       offset: [0, 0],
       glowColor: [0.8, 0.8, 0.8],
       markers: [],

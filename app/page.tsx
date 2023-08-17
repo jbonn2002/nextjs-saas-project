@@ -1,4 +1,4 @@
-import GlobeClient from "@/components/Globe-client";
+import GlobeClient from "@/components/Globe";
 import Image from "next/image";
 import { Suspense } from "react";
 import { Balancer } from "react-wrap-balancer";
