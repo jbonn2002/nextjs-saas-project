@@ -5,6 +5,7 @@ import { inter, sfPro } from "./fonts";
 import { ClerkProvider } from "@clerk/nextjs";
 import Nav from "@/components/Nav";
 import { Suspense } from "react";
+import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -27,6 +28,11 @@ export default function RootLayout({
           <main className="flex min-h-screen w-full flex-col items-center py-32">
             {children}
           </main>
+          <Suspense fallback="...">
+            <div className="relative mx-auto max-w-screen-xl px-6 sm:px-8">
+              <Footer />
+            </div>
+          </Suspense>
         </body>
       </html>
     </ClerkProvider>
