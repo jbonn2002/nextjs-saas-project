@@ -6,7 +6,7 @@ import createGlobe from "cobe";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSpring } from "@react-spring/web";
 import Drag from "./icons/drag";
-import X from "./icons/x";
+import { X } from "lucide-react";
 import useIntersectionObserver from "@/lib/hooks/use-intersection-observer";
 
 interface MarkerProps {
