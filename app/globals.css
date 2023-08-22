@@ -79,3 +79,16 @@
   filter: invert(97%) sepia(97%) saturate(0%) hue-rotate(111deg)
     brightness(103%) contrast(100%);
 }
+
+.gradient-heading {
+  @apply bg-gradient-to-br from-white to-neutral-100/50 bg-clip-text pb-1 font-bold text-transparent;
+}
+
+.skewed-sheet {
+  perspective: 1000px;
+  transform: rotateY(20deg) rotateY(20deg) rotateZ(10deg) scale(0.9);
+}
+
+.skewed-sheet:hover {
+  transform: rotateY(0deg) rotateY(0deg) rotateZ(0deg) scale(1);
+}

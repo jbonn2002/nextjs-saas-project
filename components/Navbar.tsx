@@ -22,7 +22,7 @@ export default function NavBar({ user }: { user: User | null }) {
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between w-full">
           <Link href="/" className="flex items-center font-display text-2xl">
             <Image
-              src="/cauldron-svgrepo-com.svg"
+              src="/static/icons/cauldron-svgrepo-com.svg"
               alt="Precedent logo"
               width="50"
               height="50"

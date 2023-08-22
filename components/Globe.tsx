@@ -47,9 +47,7 @@ export default function Globe() {
   return (
     <div
       ref={divRef}
-      className={`${
-        webglSupported ? "min-h-[500px] sm:min-h-[1000px]" : "min-h-[50px]"
-      } h-full`}
+      className={`${webglSupported ? "min-h-[500px]" : "min-h-[50px]"} h-full`}
     >
       {webglSupported && showGlobe && <GlobeAnimation />}
     </div>

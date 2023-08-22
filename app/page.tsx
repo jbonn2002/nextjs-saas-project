@@ -1,4 +1,7 @@
+"use client";
+
 import GlobeClient from "@/components/Globe";
+import StepsSection from "@/components/Steps";
 import Image from "next/image";
 import { Suspense } from "react";
 import { Balancer } from "react-wrap-balancer";
@@ -26,6 +29,7 @@ export default function Home() {
           <GlobeClient />
         </Suspense>
       </div>
+      <StepsSection />
     </>
   );
 }
