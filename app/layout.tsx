@@ -1,4 +1,4 @@
-import "./globals.css";
+import "/styles/globals.css";
 import type { Metadata } from "next";
 import clsx from "clsx";
 import { inter, sfPro } from "./fonts";

@@ -7,7 +7,7 @@ import { DiscordIcon } from "./icons/discord";
 
 export const Footer = () => {
   return (
-    <footer className="mt-48 grid grid-cols-1 items-center gap-8 border-t border-neutral-900/50 px-6 pt-12 pb-20 sm:grid-cols-2 sm:py-12 sm:px-8 lg:grid-cols-3">
+    <footer className="grid grid-cols-1 items-center gap-8 border-t border-neutral-900/50 px-6 pt-12 pb-20 sm:grid-cols-2 sm:py-12 sm:px-8 lg:grid-cols-3">
       <div className="flex flex-row items-center justify-center gap-6 text-sm text-white md:justify-start">
         <SystemStatusButton status={"operational"} />
         <Link href="/legal/terms">Terms</Link>

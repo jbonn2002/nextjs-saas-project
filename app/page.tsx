@@ -1,6 +1,7 @@
 "use client";
 
 import GlobeClient from "@/components/Globe";
+import OpenSource from "@/components/OpenSource";
 import StepsSection from "@/components/Steps";
 import Image from "next/image";
 import { Suspense } from "react";
@@ -30,6 +31,7 @@ export default function Home() {
         </Suspense>
       </div>
       <StepsSection />
+      <OpenSource />
     </>
   );
 }
