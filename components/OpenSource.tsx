@@ -5,7 +5,7 @@ import { GitHubIcon } from "./icons/github";
 
 export default async function OpenSource() {
   const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/jbonn2002/nextjs-networth-tracker",
+    "https://api.github.com/repos/jbonn2002/nextjs-saas-project",
     {
       // optional – feel free to remove if you don't want to display star count
       ...(process.env.GITHUB_OAUTH_TOKEN && {
@@ -41,7 +41,7 @@ export function OSSSection({ stars }: { stars: number }) {
         </div>
         <div className="flex items-center justify-center py-10">
           <a
-            href="https://github.com/jbonn2002/nextjs-networth-tracker"
+            href="https://github.com/jbonn2002/nextjs-saas-project"
             target="_blank"
             rel="noreferrer"
           >
