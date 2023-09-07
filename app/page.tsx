@@ -30,8 +30,12 @@ export default function Home() {
           <GlobeClient />
         </Suspense>
       </div>
-      <StepsSection />
-      <OpenSource />
+      <Suspense fallback="...loading">
+        <StepsSection />
+      </Suspense>
+      <Suspense fallback="...loading">
+        <OpenSource />
+      </Suspense>
     </>
   );
 }

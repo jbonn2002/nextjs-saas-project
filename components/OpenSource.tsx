@@ -30,11 +30,11 @@ export function OSSSection({ stars }: { stars: number }) {
     <div className="mt-20 pt-20  backdrop-blur">
       <MaxWidthWrapper>
         <div className="mx-auto max-w-md text-center sm:max-w-xl">
-          <h2 className="font-display text-black text-4xl font-extrabold leading-tight sm:text-5xl sm:leading-tight">
+          <h2 className="font-display gradient-heading text-4xl font-extrabold leading-tight sm:text-5xl sm:leading-tight">
             Proudly{" "}
             <span className="green_gradient border-none">open-source </span>
           </h2>
-          <p className="mt-5 text-white sm:text-lg">
+          <p className="mt-5 text-neutral-300 sm:text-lg">
             Our source code is available on GitHub - Go check it out and leave
             star, or use it as inspiration for your next project
           </p>
