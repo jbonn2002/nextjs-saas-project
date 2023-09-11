@@ -295,7 +295,7 @@ const StepsSection = () => {
               source of content
             </p>
           }
-          description="Ingest a website, a GitHub repo, a Zendesk knowledge base, a Gitbook docs site. Drag and drop files. Or upload programmatically via API."
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem inventore dicta, consequuntur fuga eveniet unde tempora iure minus reprehenderit eos."
           Icon={Unplug}
           position="left"
         >
@@ -333,7 +333,7 @@ const StepsSection = () => {
         </Step>
         <Step
           title="Configure to your needs"
-          description="Fine-tune prompt and model parameters to match your tone, language and use case. Customize the UI to match your brand."
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem inventore dicta, consequuntur fuga eveniet unde tempora iure minus reprehenderit eos."
           Icon={Settings2}
           position="middle"
         >
@@ -353,10 +353,10 @@ const StepsSection = () => {
                       What is the pricing plan?
                     </div>
                     <div className="rounded-full bg-indigo-100 px-2 py-1 text-xs text-indigo-600">
-                      How do I add a team member?
+                      How do I add a asset?
                     </div>
                     <div className="rounded-full bg-indigo-100 px-2 py-1 text-xs text-indigo-600">
-                      Are you SOC2 compliant?
+                      Where do I find my networth?
                     </div>
                   </div>
                   <div className="relative h-[1px] flex-none overflow-hidden">
@@ -411,7 +411,7 @@ const StepsSection = () => {
         </Step>
         <Step
           title="Launch at all touch points"
-          description="Paste a script tag to your website. Use a React component in your web application. Build custom logic with our streaming API endpoints."
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem inventore dicta, consequuntur fuga eveniet unde tempora iure minus reprehenderit eos."
           Icon={Code}
           position="right"
         >
