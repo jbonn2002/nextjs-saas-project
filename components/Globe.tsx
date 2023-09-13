@@ -103,7 +103,7 @@ const GlobeAnimation = () => {
     });
     setTimeout(() => (canvasRef.current.style.opacity = "1"));
     return () => globe.destroy();
-  }, []);
+  });
 
   const [showModal, setShowModal] = useState(true);
 
