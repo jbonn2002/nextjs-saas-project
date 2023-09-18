@@ -288,13 +288,7 @@ const StepsSection = () => {
       </h2>
       <div className="grid grid-cols-1 items-center justify-center gap-12 sm:mt-16 sm:gap-0 md:grid-cols-3">
         <Step
-          title={
-            <p>
-              Connect{" "}
-              <span className="border-b border-neutral-600 font-bold">any</span>{" "}
-              source of content
-            </p>
-          }
+          title={<p>Lorem ipsum dolor sit amet</p>}
           description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem inventore dicta, consequuntur fuga eveniet unde tempora iure minus reprehenderit eos."
           Icon={Unplug}
           position="left"
@@ -332,7 +326,7 @@ const StepsSection = () => {
           </div>
         </Step>
         <Step
-          title="Configure to your needs"
+          title="Lorem ipsum dolor sit"
           description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem inventore dicta, consequuntur fuga eveniet unde tempora iure minus reprehenderit eos."
           Icon={Settings2}
           position="middle"
@@ -410,7 +404,7 @@ const StepsSection = () => {
           </div>
         </Step>
         <Step
-          title="Launch at all touch points"
+          title="Lorem ipsum dolor sit amet"
           description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem inventore dicta, consequuntur fuga eveniet unde tempora iure minus reprehenderit eos."
           Icon={Code}
           position="right"
