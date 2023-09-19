@@ -186,8 +186,8 @@ export const Lines = ({
           id="pulse"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor={colors.sky["500"]} stopOpacity="0" />
-          <stop stopColor={colors.sky["500"]} stopOpacity="0.4" />
+          <stop stopColor={colors.violet["500"]} stopOpacity="0" />
+          <stop stopColor={colors.violet["500"]} stopOpacity="0.4" />
           <stop offset="1" stopColor={colors.sky["500"]} stopOpacity="0" />
         </motion.linearGradient>
       </defs>
