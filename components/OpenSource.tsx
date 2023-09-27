@@ -27,7 +27,7 @@ export default async function OpenSource() {
 
 export function OSSSection({ stars }: { stars: number }) {
   return (
-    <div className="mt-20 pt-20  backdrop-blur">
+    <div className="mt-20 pt-20 backdrop-blur-none">
       <MaxWidthWrapper>
         <div className="mx-auto max-w-md text-center sm:max-w-xl">
           <h2 className="font-display gradient-heading text-4xl font-extrabold leading-tight sm:text-5xl sm:leading-tight">
