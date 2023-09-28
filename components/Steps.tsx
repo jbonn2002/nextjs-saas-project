@@ -239,9 +239,9 @@ export const LaunchLine = ({
           id="pulse1"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor={colors.fuchsia["500"]} stopOpacity="0" />
-          <stop stopColor={colors.fuchsia["500"]} stopOpacity="0.7" />
-          <stop offset="1" stopColor={colors.fuchsia["500"]} stopOpacity="0" />
+          <stop stopColor={colors.violet["500"]} stopOpacity="0" />
+          <stop stopColor={colors.violet["500"]} stopOpacity="0.7" />
+          <stop offset="1" stopColor={colors.sky["500"]} stopOpacity="0" />
         </motion.linearGradient>
       </defs>
     </svg>
