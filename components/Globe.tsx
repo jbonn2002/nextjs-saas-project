@@ -128,7 +128,7 @@ const GlobeAnimation = () => {
             </button>
             <Drag className="mx-auto mb-2 h-12 w-12 text-gray-700 sm:mb-4" />
             <p className="text-center text-sm text-gray-700 sm:text-base">
-              Go check out the repo and clone to get your saas project started{" "}
+              Check out and clone the repo to get your saas project started{" "}
               <a
                 className="font-semibold text-blue-800"
                 href="https://github.com/jbonn2002/nextjs-saas-project"
@@ -137,7 +137,7 @@ const GlobeAnimation = () => {
               >
                 jbonn2002/nextjs-saas-project
               </a>
-              .
+              !
             </p>
             <Link
               href="/stats/github"
