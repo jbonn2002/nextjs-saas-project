@@ -23,7 +23,7 @@ export default function Home() {
         >
           <Balancer>
             An opinionated collection of components, hooks, and utilities for
-            your Next.js project.
+            your next project.
           </Balancer>
         </p>
         <Suspense fallback="...loading">
