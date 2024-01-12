@@ -1,14 +1,20 @@
 "use client";
 
+import useScroll from "@/lib/hooks/use-scroll";
+import {
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+  useUser,
+} from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
-import useScroll from "@/lib/hooks/use-scroll";
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { Button } from "./ui/Button";
-import { User } from "@clerk/nextjs/server";
 
-export default function NavBar({ user }: { user: User | null }) {
+export default function NavBar() {
   const scrolled = useScroll(50);
+  const { user } = useUser();
 
   return (
     <>
