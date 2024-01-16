@@ -10,8 +10,12 @@ export const Footer = () => {
     <footer className="grid grid-cols-1 items-center gap-8 border-t border-neutral-900/50 px-6 pt-12 pb-20 sm:grid-cols-2 sm:py-12 sm:px-8 lg:grid-cols-3">
       <div className="flex flex-row items-center justify-center gap-6 text-sm text-white md:justify-start">
         <SystemStatusButton status={"operational"} />
-        <Link href="/">Terms</Link>
-        <Link href="/">Privacy</Link>
+        <Link href="/" className="opacity-80 hover:opacity-100">
+          Terms
+        </Link>
+        <Link href="/" className="opacity-80 hover:opacity-100">
+          Privacy
+        </Link>
       </div>
       <div className="hidden flex-row items-baseline justify-center gap-1 text-center text-sm text-white lg:flex"></div>
       <div className="mr-0 flex flex-row items-center justify-center gap-4 text-white sm:mr-8 sm:justify-end md:mr-12 xl:mr-0">
